@@ -614,12 +614,12 @@ var SETDEX_TT2019 = {
         "Default Set": {
             "level": 50,
             "evs": {
-                "hp": 248,
+                "hp": 252,
                 "at": 0,
                 "df": 4,
                 "sa": 0,
-                "sd": 36,
-                "sp": 220
+                "sd": 0,
+                "sp": 252
             },
             "nature": "Jolly",
             "ability": "",
@@ -2994,7 +2994,7 @@ var SETDEX_TT2019 = {
                 "sd": 0,
                 "sp": 252
             },
-            "nature": "Modest",
+            "nature": "Timid",
             "ability": "Flash Fire",
             "item": "",
             "moves": [
@@ -6944,9 +6944,9 @@ var SETDEX_TT2019 = {
             "ability": "Swift Swim",
             "item": "",
             "moves": [
-                "Hydro Pump",
                 "Scald",
-                "Giga Drain",
+                "Grass Knot",
+                "Hydro Pump",
                 "Ice Beam"
             ]
         }
@@ -8244,7 +8244,7 @@ var SETDEX_TT2019 = {
                 "Precipice Blades",
                 "Fire Punch",
                 "Rock Slide",
-                "Earthquake"
+                "Stomping Tantrum"
             ]
         },
         "Common Mixed Showdown": {
@@ -8312,6 +8312,26 @@ var SETDEX_TT2019 = {
                 "Grass Knot",
                 "Hidden Power Ground"
             ]
+        },
+        "Animus's bulky Xerneas": {
+            "level": 50,
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 92,
+                "sa": 92,
+                "sd": 4,
+                "sp": 68
+            },
+            "nature": "Modest",
+            "ability": "Fairy Aura",
+            "item": "",
+            "moves": [
+                "Moonblast",
+                "Dazzling Gleam",
+                "Grass Knot",
+                "Hidden Power Ground"
+            ]
         }
     },
 
@@ -8319,20 +8339,20 @@ var SETDEX_TT2019 = {
         "Default Set": {
             "level": 50,
             "evs": {
-                "hp": 0,
-                "at": 0,
+                "hp": 4,
+                "at": 252,
                 "df": 0,
-                "sa": 252,
-                "sd": 4,
+                "sa": 0,
+                "sd": 0,
                 "sp": 252
             },
-            "nature": "Timid",
+            "nature": "Jolly",
             "ability": "Dark Aura",
-            "item": "Life Orb",
+            "item": "Black Glasses",
             "moves": [
-                "Oblivion Wing",
-                "Sucker Punch",
                 "Foul Play",
+                "Sucker Punch",
+                "Knock Off",
                 "Snarl"
             ]
         }
@@ -8625,7 +8645,7 @@ var SETDEX_TT2019 = {
                 "sd": 236,
                 "sp": 28
             },
-            "nature": "Adamant",
+            "nature": "Careful",
             "ability": "Intimidate",
             "item": "",
             "moves": [
@@ -8635,12 +8655,12 @@ var SETDEX_TT2019 = {
                 "U-turn"
             ]
         },
-        "Offensive": {
+        "Offensive Incineroar": {
             "level": 50,
             "evs": {
                 "hp": 4,
                 "at": 252,
-                "df": 4,
+                "df": 0,
                 "sa": 0,
                 "sd": 0,
                 "sp": 252
@@ -8650,9 +8670,9 @@ var SETDEX_TT2019 = {
             "item": "",
             "moves": [
                 "Flare Blitz",
-                "Darkest Lariat",
+                "Knock Off",
                 "Fake Out",
-                "Malicious Moonsault"
+                "Low Kick"
             ]
         },        
         "TT AV Incineroar": {
@@ -9030,13 +9050,13 @@ var SETDEX_TT2019 = {
                 "sp": 0
             },
             "nature": "Adamant",
-            "ability": "",
+            "ability": "Contrary",
             "item": "",
             "moves": [
                 "Leaf Blade",
-                "Solar Blade",
-                "Leech Life",
-                ""
+                "Superpower",
+                "Knock Off",
+                "Poison Jab"
             ]
         }
     },
@@ -9951,6 +9971,27 @@ var SETDEX_TT2019 = {
                 "Knock Off"
             ]
         },
+        
+        "Angel's AV Kartana": {
+            "level": 50,
+            "evs": {
+                "hp": 12,
+                "at": 60,
+                "df": 4,
+                "sa": 0,
+                "sd": 252,
+                "sp": 180
+            },
+            "nature": "Jolly",
+            "ability": "",
+            "item": "Assault Vest",
+            "moves": [
+                "Leaf Blade",
+                "Sacred Sword",
+                "Smart Strike",
+                "Knock Off"
+            ]
+        },
 
         "AV Kartana": {
             "level": 50,
@@ -10395,7 +10436,7 @@ var SETDEX_TT2019 = {
           ]
       },
     },
-    "Dawn Wings Necrozma" : {
+    "Necrozma-Dawn-Wings" : {
       "Default Set": {
           "level": 50,
           "evs": {
@@ -10417,7 +10458,7 @@ var SETDEX_TT2019 = {
           ]
       },
     },
-    "Dusk Mane Necrozma" : {
+    "Necrozma-Dusk-Mane" : {
       "Default Set": {
           "level": 50,
           "evs": {
@@ -10434,8 +10475,8 @@ var SETDEX_TT2019 = {
           "moves": [
               "Sunsteel Strike",
               "Photon Geyser",
-              "",
-              ""
+              "Earthquake",
+              "Knock Off"
           ]
       },
     },
